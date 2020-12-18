@@ -22,7 +22,7 @@ namespace Drupal\Tests\apigee_edge_teams\Functional;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Url;
 use Drupal\Tests\apigee_edge\Traits\EntityUtilsTrait;
-//use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
+use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
 
 /**
  * Team and team app entity UI tests.
@@ -33,7 +33,7 @@ use Drupal\Tests\apigee_edge\Traits\EntityUtilsTrait;
 class UiTest extends ApigeeEdgeTeamsFunctionalTestBase {
 
   use EntityUtilsTrait;
-  //use FieldUiTestTrait;
+  use FieldUiTestTrait;
 
   /**
    * The team entity storage.
