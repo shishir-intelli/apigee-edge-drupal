@@ -26,7 +26,7 @@ use Drupal\apigee_edge\Entity\DeveloperApp;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Url;
-use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
+//use Drupal\Tests\field_ui\Traits\FieldUiTestTrait;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
@@ -38,7 +38,7 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class DeveloperAppFieldTest extends ApigeeEdgeFunctionalTestBase {
 
-  use FieldUiTestTrait;
+  //use FieldUiTestTrait;
 
   /**
    * {@inheritdoc}
